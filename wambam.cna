@@ -16,7 +16,7 @@ alias wambam {
 		berror($1, "could not read bof file");
 	}
 
-    btask($1, "Tasked beacon to enumerate TBRES file";
+    btask($1, "Tasked beacon to enumerate TBRES file");
     beacon_inline_execute($1, $data, "go", $args);
 }
 
